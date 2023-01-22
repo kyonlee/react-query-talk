@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.grid}>
           <Link
-            href="/redux"
+            href="/redux/1"
             className={styles.card}
           >
             <h2>
@@ -26,7 +26,7 @@ export default function Home() {
           </Link>
 
           <Link
-            href="/query"
+            href="/query/1"
             className={styles.card}
           >
             <h2>
