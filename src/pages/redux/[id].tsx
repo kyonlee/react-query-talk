@@ -48,7 +48,7 @@ export default function ReduxImplementation() {
     if (failure) {
       return (
         <div className={styles.card}>
-          <h2>{post.error}</h2>
+          <h2>{post}</h2>
         </div>
       );
     }

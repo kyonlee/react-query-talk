@@ -10,7 +10,7 @@ const fetchPost = (id) => {
     .then(({ data }) => data);
 };
 
-export default function ReduxImplementation() {
+export default function ReactQueryImplementation() {
   const router = useRouter();
   const id = typeof router.query?.id === "string" ? router.query.id : "";
 
